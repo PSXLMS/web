@@ -1,7 +1,7 @@
-import { Component, Fragment } from "react";
+import { Fragment } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../component/layout/footer";
-import Header from "../component/layout/header";
+import Header2 from "../component/layout/header-2";
 import PageHeader from "../component/layout/pageheader";
 
 
@@ -43,7 +43,7 @@ let socialList = [
 const SignupPage = () => {
     return (
         <Fragment>
-            <Header />
+            <Header2 />
             <PageHeader title={'Register Now'} curPage={'Sign Up'} />
             <div className="login-section padding-tb section-bg">
                 <div className="container">
@@ -97,7 +97,7 @@ const SignupPage = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </Fragment>
     );
 }

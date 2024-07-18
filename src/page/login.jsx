@@ -1,7 +1,7 @@
 import { Component, Fragment } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../component/layout/footer";
-import Header from "../component/layout/header";
+import Header2 from "../component/layout/header-2";
 import PageHeader from "../component/layout/pageheader";
 
 
@@ -42,7 +42,7 @@ const socialList = [
 const LoginPage = () => {
     return (
         <Fragment>
-            <Header />
+            <Header2 />
             <PageHeader title={'Login Page'} curPage={'Login'} />
             <div className="login-section padding-tb section-bg">
                 <div className="container">

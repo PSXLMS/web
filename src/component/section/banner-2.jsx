@@ -2,25 +2,27 @@
 
 
 const subTitle = "Online education";
-const title = <h2 className="title"><span className="d-lg-block">Build Skills With</span> Experts Any Time <span className="d-lg-block">Anywhere</span></h2>;
-const desc = "Free online courses from the world’s Leading experts. join 18+ million Learners today.";
+const title = <h2 className="title"><span className="d-lg-block">Master Capital Markets
+</span> Anytime
+<span className="d-lg-block">Anywhere</span></h2>;
+const desc = "Access the best investment courses. Join millions of savvy investors today";
 
 
 const catagoryList = [
     {
-        name: 'Figma',
+        name: 'Bond',
         link: '#',
     },
     {
-        name: 'Adobe XD',
+        name: 'Stocks',
         link: '#',
     },
     {
-        name: 'illustration',
+        name: 'Exchange',
         link: '#',
     },
     {
-        name: 'Photoshop',
+        name: 'Brokerage',
         link: '#',
     },
 ]
@@ -42,7 +44,7 @@ const BannerTwo = () => {
                                         <i className="icofont-search"></i>
                                     </div>
                                     <input type="text" placeholder="Keywords of your course" />
-                                    <button type="submit">Search Course</button>
+                                    <button type="submit" className="px-3">Search</button>
                                 </form>
                                 <div className="banner-catagory d-flex flex-wrap">
                                     <p>Most Popular : </p>

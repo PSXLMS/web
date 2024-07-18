@@ -11,15 +11,15 @@ const studentList = [
     {
         imgUrl: 'assets/images/feedback/student/01.jpg',
         imgAlt: 'student rajibraj91 rajibraj',
-        name: 'Oliver Beddows',
-        degi: 'UX designer',
+        name: 'Maria Hassan',
+        degi: 'Educationist',
         desc: 'Rapidiously buildcollaboration anden deas sharing viaing and bleedng edgeing nterfaces fnergstcally plagiarize teams anbuilding paradgms whereas goingi forward process and monetze',
     },
     {
         imgUrl: 'assets/images/feedback/student/02.jpg',
         imgAlt: 'student rajibraj91 rajibraj',
-        name: 'Madley Pondor',
-        degi: 'UX designer',
+        name: 'Hassan Saleem',
+        degi: 'Student',
         desc: 'Rapidiously buildcollaboration anden deas sharing viaing and bleedng edgeing nterfaces fnergstcally plagiarize teams anbuilding paradgms whereas goingi forward process and monetze',
     },
 ]

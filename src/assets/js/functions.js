@@ -344,7 +344,7 @@
         var skillLevel3 = jQuery('.circles .four').data('percent');
         $('.four.circle').circleProgress({
             value:  '0.' + skillLevel3,
-            fill: {gradient: ['#f16126']}
+            fill: {gradient: ['#5ABA47']}
         }).on('circle-animation-progress', function(event, progress) {
             $(this).find('strong').html(Math.round(skillLevel3 * progress) + '<i>%</i>');
         });
